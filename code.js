@@ -54,7 +54,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
         // Wait for 6 seconds, then open the specified HTML file
         setTimeout(() => {
-            window.location.href = "C:/Users/sirarth/Desktop/CC/function-heart.html";
+            window.location.href = "function-heart.html";
         }, 2000); // Wait for 6 seconds
     });
     
@@ -86,7 +86,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
         // Wait for 6 seconds, then open the specified HTML file
         setTimeout(() => {
-            window.location.href = "C:/Users/sirarth/Desktop/CC/function-heart - Copy.html";
+            window.location.href = "function-heart - Copy.html";
         }, 2000); // Wait for 6 seconds
     });
     
