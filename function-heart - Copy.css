@@ -27,6 +27,7 @@ body {
     transform: scale(0.5);
   }
 }
+
 #heart {
   position: relative;
   width: 30px; /* Reduced size */
@@ -57,8 +58,49 @@ body {
   z-index: 1;
 }
 
-h3{
+h3 {
   font-size: 1em;
   color: #ff4081;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+/* Responsive adjustments for mobile screens */
+@media (max-width: 768px) {
+  body {
+    font-size: 2em;
+  }
+
+  .heart {
+    width: 8px; /* Smaller size for mobile */
+  }
+
+  #heart {
+    width: 40px; /* Adjusted size */
+    height: 15px;
+    font-size: 12px;
+  }
+
+  h3 {
+    font-size: 0.8em;
+  }
+}
+
+@media (max-width: 480px) {
+  body {
+    font-size: 1.5em;
+  }
+
+  .heart {
+    width: 6px; /* Even smaller size for smaller screens */
+  }
+
+  #heart {
+    width: 30px; /* Adjusted size */
+    height: 10px;
+    font-size: 10px;
+  }
+
+  h3 {
+    font-size: 0.7em;
+  }
 }

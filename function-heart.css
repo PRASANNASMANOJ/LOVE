@@ -27,6 +27,7 @@ body {
     transform: scale(0.5);
   }
 }
+
 #heart {
   position: relative;
   width: 30px; /* Reduced size */
@@ -57,8 +58,49 @@ body {
   z-index: 1;
 }
 
-h1{
+h1 {
   font-size: 2em;
   color: #ff4081;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+/* Mobile adjustments */
+@media (max-width: 768px) {
+  body {
+    font-size: 2em;
+  }
+
+  .heart {
+    width: 8px; /* Smaller size for mobile */
+  }
+
+  #heart {
+    width: 40px;
+    height: 15px;
+    font-size: 12px;
+  }
+
+  h1 {
+    font-size: 1.5em;
+  }
+}
+
+@media (max-width: 480px) {
+  body {
+    font-size: 1.5em;
+  }
+
+  .heart {
+    width: 6px; /* Even smaller size for very small screens */
+  }
+
+  #heart {
+    width: 30px;
+    height: 10px;
+    font-size: 10px;
+  }
+
+  h1 {
+    font-size: 1.2em;
+  }
 }
