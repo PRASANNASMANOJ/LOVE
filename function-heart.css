@@ -1,0 +1,64 @@
+body {
+  background: black;
+  color: #fff;
+  font-family: "Archivo Black", sans-serif;
+  font-size: 3em;
+  text-align: center;
+  scrollbar-width: none;
+}
+
+.heart {
+  fill: red;
+  position: relative;
+  top: 5px;
+  width: 10px; /* Reduced size */
+  animation: pulse 1s ease infinite;
+  background: pink; /* Changed background to pink */
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(0.5);
+  }
+  50% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(0.5);
+  }
+}
+#heart {
+  position: relative;
+  width: 30px; /* Reduced size */
+  height: 10px; /* Reduced size */
+  text-align: center;
+  font-size: 10px; /* Adjusted font size */
+}
+
+#heart span {
+  width: 50%;
+  display: block;
+  top: 20%;
+  z-index: 1;
+}
+
+#heart {
+  width: 50px;
+  height: 20px;
+  text-align: center;
+  font-size: 16px;
+}
+
+#heart span {
+  width: 50%;
+  display: block;
+  left: 0;
+  right: 0;
+  z-index: 1;
+}
+
+h1{
+  font-size: 2em;
+  color: #ff4081;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
